@@ -5,9 +5,9 @@ public class Main {
             System.out.println("Masukkan daftar angka :");
             String input = scanner.nextLine();
 
-            AngkaDuplikat counter = new AngkaDuplikat();
-            counter.menghitungDuplikat(input);
-            counter.tampilkanDuplikat();
+            AngkaDuplikat hitung = new AngkaDuplikat();
+            hitung.menghitungDuplikat(input);
+            hitung.tampilkanDuplikat();
         }
     }
 

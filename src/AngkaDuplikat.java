@@ -29,9 +29,9 @@ import java.util.*;
                 System.out.println("daftar angka yang sama beserta jumlahnya :");
                 for (Map.Entry<Integer, Integer> entry : hitungAngka.entrySet()) {
                     int number = entry.getKey();
-                    int count = entry.getValue();
-                    if (count > 1) {
-                        System.out.println(number + " ada " + count);
+                    int hitung = entry.getValue();
+                    if (hitung > 1) {
+                        System.out.println(number + " ada " + hitung);
                     }
                 }
             } else {
