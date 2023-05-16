@@ -26,7 +26,7 @@ import java.util.*;
 
         public void tampilkanDuplikat() {
             if (terDuplikat) {
-                System.out.println("daftar angka yang sama beserta jumlahnya :");
+                System.out.println("Daftar angka yang sama beserta jumlahnya :");
                 for (Map.Entry<Integer, Integer> entry : hitungAngka.entrySet()) {
                     int number = entry.getKey();
                     int hitung = entry.getValue();
